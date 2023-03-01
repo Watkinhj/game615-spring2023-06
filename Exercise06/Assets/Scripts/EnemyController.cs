@@ -24,7 +24,7 @@ public class EnemyController : MonoBehaviour
         newPositionTimer = newPositionTimer - Time.deltaTime;
         if (newPositionTimer < 0)
         {
-            newPositionTimer = Random.Range(1, 15);
+            newPositionTimer = Random.Range(1, 5);
             // Compute a random position and assign it to the NavMeshAgent.
             Vector3 randomPosition = RandomNavmeshLocation(Random.Range(5, 10));
             nma.SetDestination(randomPosition);

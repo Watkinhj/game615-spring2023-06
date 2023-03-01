@@ -2003,13 +2003,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnemyController_Update_mD4EAAD97042453D8
 		float L_2 = __this->___newPositionTimer_6;
 		if ((!(((float)L_2) < ((float)(0.0f)))))
 		{
-			goto IL_004b;
+			goto IL_004a;
 		}
 	}
 	{
-		// newPositionTimer = Random.Range(1, 15);
+		// newPositionTimer = Random.Range(1, 5);
 		int32_t L_3;
-		L_3 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)15), NULL);
+		L_3 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, 5, NULL);
 		__this->___newPositionTimer_6 = ((float)L_3);
 		// Vector3 randomPosition = RandomNavmeshLocation(Random.Range(5, 10));
 		int32_t L_4;
@@ -2024,7 +2024,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnemyController_Update_mD4EAAD97042453D8
 		L_8 = NavMeshAgent_SetDestination_mD5D960933827F1F14B29CF4A3B6F305C064EBF46(L_6, L_7, NULL);
 	}
 
-IL_004b:
+IL_004a:
 	{
 		// }
 		return;
