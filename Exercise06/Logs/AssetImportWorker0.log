@@ -311,3 +311,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 305.622639 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(8b1aa1ad720064423a4576ab965911c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(8b1aa1ad720064423a4576ab965911c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f0f28a5fc50783a14c806a48a1716c') in 0.071868 seconds 
